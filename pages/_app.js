@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>
       <>
-        <AuroraBackground className="overflow-x-hidden bg-fixed static ">
+        <AuroraBackground className="overflow-hidden bg-fixed  ">
           <DefaultSeo
             title="Hi, I'm Hasan Yurdakul!"
             description="I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants."

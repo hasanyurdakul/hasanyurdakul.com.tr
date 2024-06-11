@@ -12,9 +12,9 @@ tech:
     "Bootstrap 5",
     "Stripe",
   ]
-web: https://hasanimagegenerator.netlify.app/
+web:
 icon: /images/work/kitap-pazari-icon.png
-github: https://github.com/hasanyurdakul/image_generator_app
+github: https://github.com/hasanyurdakul/KitapPazari_MVC
 ios:
 active: true
 tagline: ASP.NET Core MVC Proof of Concept App
@@ -22,14 +22,10 @@ tagline: ASP.NET Core MVC Proof of Concept App
 
 ![Screenshot](https://raw.githubusercontent.com/hasanyurdakul/hasanyurdakul/main/static/KitapPazari/sc1.png)
 
-<!-- <img src="https://raw.githubusercontent.com/hasanyurdakul/hasanyurdakul/main/static/KitapPazari/sc1.png" alt="drawing" width="300" /> -->
-
 Kitap Pazari is a proof of concept project built on ASP .NET Core MVC. It utilizes Entity Framework Core ASP .NET Identity and MSSQL Server.
 Used N Tier Architecture, Repository and Unit of Work patterns to manage the codebase.
 
 ![Screenshot](https://raw.githubusercontent.com/hasanyurdakul/hasanyurdakul/main/static/KitapPazari/sc3.png)
-
-<!-- <img src="https://raw.githubusercontent.com/hasanyurdakul/hasanyurdakul/main/static/KitapPazari/sc3.png" alt="drawing" width="300" /> -->
 
 <h2>Features</h2>
 
@@ -43,8 +39,6 @@ Here're some of the project's best features:
   Managament Interfaces
 
 ![Screenshot](https://raw.githubusercontent.com/hasanyurdakul/hasanyurdakul/main/static/KitapPazari/sc2.png)
-
-<!-- <img src="https://raw.githubusercontent.com/hasanyurdakul/hasanyurdakul/main/static/KitapPazari/sc2.png" alt="drawing" width="300" /> -->
 
 <h2>Installation </h2>
 

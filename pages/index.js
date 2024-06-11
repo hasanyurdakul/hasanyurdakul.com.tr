@@ -78,7 +78,7 @@ export default function Home({ allPosts, allProjects, post }) {
           </div>
           <div className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
             {allProjects?.map((project) => (
-              <div className="min-w-[120px] flex-col px-4 py-2 border  border-gray-200 bg-gray-100/20 dark:border-gray-700/70 rounded-lg hover:bg-gray-100/20 dark:bg-gray-800/20 dark:hover:bg-gray-800/70 dark:hover:border-gray-700 dark:shadow-[0_0_8px_rgba(0,0,0,0.8)] shadow-[0_0_8px_rgba(0,0,0,0.06)] flex relative ">
+              <div className="min-w-[120px] flex-col px-4 py-2 border  border-gray-200 bg-gray-100/20 dark:border-gray-700/70 rounded-lg hover:bg-gray-100/20 dark:bg-gray-900/20 dark:hover:bg-gray-800/70 dark:hover:border-gray-700 dark:shadow-[0_0_8px_rgba(0,0,0,0.8)] shadow-[0_0_8px_rgba(0,0,0,0.06)] flex relative ">
                 {project?.ios ? (
                   <Link
                     href={project?.ios}
