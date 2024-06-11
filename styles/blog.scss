@@ -70,7 +70,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
         }
 
         .photo-item {
-          max-width: calc(100%/3);
+          max-width: calc(100% / 3);
 
           @media #{$phone} {
             max-width: 100%;
@@ -105,7 +105,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   pre {
-    @apply bg-gray-100 dark:bg-gray-800 dark:border-gray-700 p-5 w-full break-words rounded-lg border border-gray-200 overflow-auto mb-10 text-sm;
+    @apply bg-gray-100 dark:bg-gray-800 dark:border-gray-700 p-5 w-full break-all rounded-lg border border-gray-200 overflow-auto mb-10 text-sm;
 
     & > code {
       @apply whitespace-pre-wrap;
@@ -165,7 +165,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     @apply my-10 border-l-2 border-gray-300 pl-5;
 
     p {
-      @apply text-xl;
+      @apply break-all text-sm;
     }
   }
 
@@ -181,7 +181,12 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     }
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin: 50px auto 20px auto;
     @apply font-bold leading-tight;
   }
@@ -222,29 +227,30 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
       border-bottom: 2px solid #ededed;
 
       &.tweet {
-        border-color: #1DA1F2;
-        color: #1DA1F2;
+        border-color: #1da1f2;
+        color: #1da1f2;
       }
 
       &.fb {
-        border-color: #3B5998;
-        color: #3B5998;
+        border-color: #3b5998;
+        color: #3b5998;
       }
 
       @media #{$phone} {
         display: inline-block;
         max-width: 300px;
         margin: 10px;
-        font-size: 16px; 
+        font-size: 16px;
       }
     }
   }
 
-  ol, ul {
+  ol,
+  ul {
     @apply mb-10;
 
     li {
-      @apply text-[1rem] md:text-[1.05rem] list-disc list-outside ml-5 mb-2 ;
+      @apply text-[1rem] md:text-[1.05rem] list-disc list-outside ml-5 mb-2;
 
       code {
         @apply font-mono text-sm border border-gray-200 dark:border-gray-800 px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)];

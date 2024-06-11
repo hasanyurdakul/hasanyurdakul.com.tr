@@ -44,11 +44,15 @@ Here're some of the project's best features:
 
 #### 1. Clone the repo
 
-`github.com/hasanyurdakul/MicroMuzayede.git`
+```
+https://github.com/hasanyurdakul/MicroMuzayede.git
+```
 
 #### 2. Navigate to
 
-`\KitapPazari\KitapPazariWeb\appsettings.json`
+```
+~\KitapPazari\KitapPazariWeb\appsettings.json
+```
 
 #### 3. Modify the API Keys and Connection String for MSSQL.
 
