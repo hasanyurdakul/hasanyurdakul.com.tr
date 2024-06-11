@@ -7,7 +7,7 @@ export default function PostContent({ post }) {
       className="inline-flex flex-col items-center justify-start w-full"
     >
       {post?.link && post?.image ? (
-        <div className="max-w-[620px] mx-auto">
+        <div className="max-w-[620px]  mx-auto">
           <img src={post.image} className="mb-4 rounded-lg" />
         </div>
       ) : (

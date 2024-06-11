@@ -73,7 +73,7 @@ export default function WorkContent({ post }) {
       </div>
       <div
         dangerouslySetInnerHTML={{ __html: post?.content }}
-        className="inline-block mx-auto post-content"
+        className="inline-block mx-auto post-content "
       />
     </div>
   );

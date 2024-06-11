@@ -7,7 +7,7 @@ web: https://hasanimagegenerator.netlify.app/
 icon: /images/work/ai-image-generator-icon.png
 github: https://github.com/hasanyurdakul/image_generator_app
 ios:
-active: true
+active: false
 tagline: Turn prompts into images via the OpenAI API
 ---
 

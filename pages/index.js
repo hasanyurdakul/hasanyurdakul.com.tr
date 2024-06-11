@@ -195,6 +195,8 @@ export async function getStaticProps() {
       allPosts,
       allProjects: allProjects
         .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .reverse()
+
         .sort((left, right) =>
           left.hasOwnProperty("active")
             ? -1

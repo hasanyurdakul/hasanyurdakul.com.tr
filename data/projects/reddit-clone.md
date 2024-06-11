@@ -7,7 +7,7 @@ web: https://hasansocial.netlify.app/
 icon: /images/work/reddit-icon.png
 github: https://github.com/hasanyurdakul/social-media-app
 ios:
-active: true
+active: false
 tagline: Social Media App Reddit Clone
 ---
 
