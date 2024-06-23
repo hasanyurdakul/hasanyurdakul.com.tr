@@ -1,5 +1,5 @@
 ---
-date: 2024-06-24 02:50:00 +300
+date: 2024-06-13 02:50:00 +300
 title: "Kitap Pazari"
 slug: kitap-pazari
 tech:
