@@ -31,13 +31,13 @@ function MyApp({ Component, pageProps }) {
         <AuroraBackground className="overflow-hidden bg-fixed  ">
           <DefaultSeo
             title="Hi, I'm Hasan Yurdakul!"
-            description="I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants."
+            description="I'm a engineer. I build SaaS apps."
             canonical={canonicalUrl}
             openGraph={{
               site_name: "Hi, I'm Hasan Yurdakul!",
               title: "Hi, I'm Hasan Yurdakul!",
               description:
-                "I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants.",
+                "I'm a engineer. I build SaaS apps.",
               images: [
                 {
                   url: "https://hasanyurdakul.com.tr/images/site/meta.jpg",
@@ -60,17 +60,7 @@ function MyApp({ Component, pageProps }) {
             ]}
           />
 
-          {process.env.NODE_ENV == "production" ? (
-            // Analytics Script
-            <Script
-              src="https://api.pirsch.io/pirsch.js"
-              id="pirschjs"
-              data-code={process.env.NEXT_PUBLIC_PIRSCH_KEY}
-              strategy="afterInteractive"
-            />
-          ) : (
-            ""
-          )}
+         
           <MainLayout>
             <Component {...pageProps} />
           </MainLayout>
